@@ -10,8 +10,8 @@ This repository contains R scripts and input data used for:
 - Cross-validation, ROC/PR analysis, and Y-scrambling validation
 
 ## Files
-- analysis_pipeline.R: Full analysis pipeline
-- Dual-sgRNA_design_input.txt: Design feature input
+- Analysis_pipeline.R: Full analysis pipeline
+- Dual-sgRNA_design_input.txt: Design and basic variables input
 - Kmer_countmatrix.txt: K-mer count matrix
 
 ## Requirements
