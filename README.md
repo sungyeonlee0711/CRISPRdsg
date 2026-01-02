@@ -16,4 +16,4 @@ This repository contains R scripts and input data used for:
 
 ## Requirements
 - R (>= 4.0)
-- Packages: dplyr, tidyr, randomForest, pROC, caret, PRROC, VennDiagram, ggplot2
+- Packages: dplyr, tidyr, randomForest, pROC, caret, PRROC, VennDiagram
