@@ -907,7 +907,7 @@ feature_stability_kmer <- function(dat, top_k = 50, k = 5, seed = 42) {
   y <- factor(dat$label, levels = c(0, 1))
   folds <- make_folds(y, k = k, seed = seed)
   
-  # Exclude design feature and keep only k-mer predictors
+  # Exclude design feature and keep only k-mers
   design_cols <- c("DeepSpCas9")
   kmer_cols <- setdiff(colnames(dat), c("label", design_cols))
   
